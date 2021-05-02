@@ -4,7 +4,7 @@ import styles from "../styles/Home.module.css";
 export default function Home() {
   return (
     <div className={styles.container}>
-      <p className={styles.title}>O pix do Espaço está disponivel!</p>
+      <p className={styles.title}>O pix do Espaço está disponível!</p>
       <h2 className={styles.descricao}>
         Abra o app em que vai fazer a transferência, escanei o <b>QR Code</b> ou
         cole a <b>chave PIX</b>

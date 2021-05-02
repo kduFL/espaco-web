@@ -27,11 +27,14 @@
   line-height: 150%;
   text-align: center;
   width: 80vw;
+  max-width: 480px;
 }
 
 .qr {
   height: 50vw;
   width: 50vw;
+  max-width: 300px;
+  max-height: 300px;
   margin-top: 32px;
   border-radius: 8px;
   background-color: #ffffff;
@@ -47,6 +50,7 @@
 .contDados {
   color: #ffffff;
   width: 90vw;
+  max-width: 540px;
   margin-top: 32px;
 }
 
@@ -70,6 +74,7 @@
 .copiar {
   padding: 14px 0;
   width: 90vw;
+  max-width: 540px;
   outline: none;
   border-radius: 8px;
   border: none;
@@ -87,4 +92,8 @@
 
 .copiar:active {
   background: -webkit-linear-gradient(45deg, #e61216, #b701ad);
+}
+
+@media screen and (min-width: 600px) {
+
 }
