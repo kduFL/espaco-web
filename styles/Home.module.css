@@ -11,9 +11,7 @@
 .title {
   margin: 0;
   font-size: 32px;
-  background: -webkit-linear-gradient(45deg, rgba(244,0,3,1), rgba(183,1,173,1));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: rgba(126, 0, 243);
   font-weight: 900;
   line-height: 32px;
   text-align: center;
@@ -76,11 +74,15 @@
   font-size: 24px;
   color: #fff;
   font-weight: 900;
-  background: -webkit-linear-gradient(45deg, rgba(244,0,3,1), rgba(183,1,173,1));
+  background-color: rgba(126, 0, 243);
   margin-top: 32px;
   cursor: pointer;
 }
 
+.copiar:hover {
+  background-color: rgb(115, 30, 194);
+}
+
 .copiar:active {
-  background: -webkit-linear-gradient(45deg, rgba(207, 66, 69), rgba(156, 20, 149));
+  background-color: rgb(90, 6, 168);
 }
