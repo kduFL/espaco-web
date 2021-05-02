@@ -4,7 +4,7 @@ import styles from "../styles/Home.module.css";
 export default function Home() {
   return (
     <div className={styles.container}>
-      <h1 className={styles.title}>O pix do Espaço está disponivel!</h1>
+      <p className={styles.title}>O pix do Espaço está disponivel!</p>
       <h2 className={styles.descricao}>
         Abra o app em que vai fazer a transferência, escanei o <b>QR Code</b> ou
         cole a <b>chave PIX</b>
@@ -28,7 +28,7 @@ export default function Home() {
 
         <div className={styles.rowDados}>
           <p className={styles.titleDados}>Nome</p>
-          <p className={styles.valueDados}>União Nordeste Brasoçeora da IASD</p>
+          <p className={styles.valueDados}>União Nordeste Brasileira da IASD</p>
         </div>
 
         <div className={styles.rowDados}>
